@@ -3,7 +3,7 @@ let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar'); 
 
 menuIcon.onclick = () => {
-    menuIcon.classList.toggle('fa-xmark');
+    menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 };
 
@@ -32,7 +32,7 @@ window.onscroll = () => {
     header.classList.toggle('sticky', window.scrollY > 100);
 
     /*------------------- remover icone e menu quando clicar no link --------------------*/
-    menuIcon.classList.remove('fa-xmark');
+    menuIcon.classList.remove('bx-x');
     navbar.classList.remove('active');
 
 };
@@ -52,7 +52,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 /*------------------- typed js efeito maquina de escrever --------------------*/
 const typed = new Typed('.multiple-text', {
-    strings: ['Análista de Sistemas', 'Desenvolvedor Web'],
+    strings: ['Analista de Sistemas', 'Desenvolvedor FrontEnd'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,

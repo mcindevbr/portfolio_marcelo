@@ -4,7 +4,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfólio | Marcelo</title>
+        <link rel="icon" href="./assets/img/favicon.png">
+        <title>Portfólio | Marcelo Cavalcanti</title>
 
         <!-- Boxicons -->
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -20,8 +21,7 @@
         <header class="header">
             <h4 class="logo" disabled>MC<span>i</span>NDev</h4>
 
-            <!-- <i class='bx bx-menu' id="menu-icon"></i> -->
-            <i class="fa-solid fa-bars" id="menu-icon"></i>
+            <i class='bx bx-menu' id="menu-icon"></i>
 
             <nav class="navbar">
                 <a href="#home" class="active">Início</a>
@@ -37,11 +37,12 @@
                 <h3>Olá, Meu nome é</h3>
                 <h1>Marcelo Cavalcanti do Nascimento</h1>
                 <h3>Eu sou <span class="multiple-text"></span></h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, corporis!</p>
+                <p>Sempre em busca de ser um profissional cada vez mais completo 
+                e almejado pelas grandes empresas da área da Tecnologia.</p>
                 <div class="social-media">
-                    <a href="#"><i class='bx bxl-whatsapp'></i></a>
-                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
-                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <!-- <a href="#"><i class='bx bxl-whatsapp'></i></a> -->
+                    <a href="https://www.linkedin.com/in/marcelo-cavalcanti-7b1137253"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://github.com/mcindevbr"><i class='bx bxl-github'></i></a>
                 </div>
                 <a href="curriculo.php" class="btn">Currículo</a>
             </div>
@@ -60,12 +61,13 @@
 
             <div class="about-content">
                 <h2 class="heading">Sobre <span>mim</span></h2>
-                <h3>Desenvolvedor Web / Analísta de Sistemas</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi labore illo 
-                adipisci mollitia sapiente! Pariatur perspiciatis qui voluptatem asperiores 
-                natus.<span id="pontos">...</span><span id="mais">Lorem ipsum dolor sit amet consectetur, 
-                adipisicing elit. Quidem, ea itaque modi doloremque maxime quae culpa commodi unde 
-                sequi! Itaque.</p>
+                <h3>Desenvolvedor FrontEnd / Analista de Sistemas</h3>
+                <p>Tenho 25 anos, sou de São Gonçalo do Amarante, Rio Grande do Norte, Brasil.<br>
+                Militar Temporário do Exército (2017 - Hoje) - seção de Tecnologia e <span id="pontos">...</span><span id="mais">Informática.<br> 
+                Estudante de Análise e Desenvolvimento de Sistemas na Universidade Estácio de Sá, Natal-RN.<br>
+                Cursando Desenvolvimento FullStack Avançado - Programador Br na Hotmart | Desenvolvimento Web Completo - Udemy.<br>
+                Sou iniciante na programação, apaixonando-me cada vez mais por essa área.<br>
+                Meu objetivo é ser um Desenvolvedor completo, e futuramente estar entre os melhores.</p>
                 <button id="btnLeiaMais" class="btn" onclick="leiaMais()">Leia mais</button>
             </div>
         </section>
