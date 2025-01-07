@@ -52,7 +52,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 /*------------------- typed js efeito maquina de escrever --------------------*/
 const typed = new Typed('.multiple-text', {
-    strings: ['Analista de Sistemas', 'Desenvolvedor Web'],
+    strings: ['Analista de Sistemas'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
